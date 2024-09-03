@@ -1,0 +1,65 @@
+body {
+    background:blueviolet;
+    color:white;
+    margin: 0px;
+    font-family: "Dancing Script", cursive;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 3px darkslateblue;
+    padding: 20px; 
+    font-size: 25px;
+    color: darkblue; 
+}
+
+.chamada {
+    background: rgb(53, 5, 117);
+    padding-bottom: 90px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+}
+
+
+.categoria-videos {
+
+    display: flex;
+    overflow-x: auto;
+    gap: 10px; 
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+}
+
+.categoria-videos img:hover {
+opacity: 1.0;
+border: 1px solid blue;
+}
+
+.categoria h2 {
+    color: darkblue
+}
